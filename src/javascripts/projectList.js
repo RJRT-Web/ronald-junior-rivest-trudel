@@ -1,4 +1,4 @@
-import rpgGameImg from "../assets/images/rpg-game.png";
+//import rpgGameImg from "../assets/images/rpg-game.png";
 import libraryMovie from "../assets/images/movie-library.jpg";
 
 const projectList = [
@@ -15,7 +15,7 @@ const projectList = [
     name: "RPG Game",
     description: "Description of Project A",
     link: "https://rjrt-web.github.io/rpg-combat/",
-    image: rpgGameImg,
+    image: libraryMovie,
     icons: ["html", "css", "javascript"],
     size: 32,
   },
