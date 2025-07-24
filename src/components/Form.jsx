@@ -43,7 +43,7 @@ function Form() {
         <input
           type="hidden"
           name="_next"
-          value="https://rjrt-web.github.io/Portfolio/"
+          value="https://ronald-junior-rivest-trudel.vercel.app/"
         />
 
         <button type="submit" className="btn btn-lg btn-dark btn-block">
