@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
 
   return (
     <div className=" project-card">
-      <div class="test bg-animation-dark">
+      <div className="test bg-animation-dark">
         <div className="project-img-contant">
           <img
             className="project-image"
