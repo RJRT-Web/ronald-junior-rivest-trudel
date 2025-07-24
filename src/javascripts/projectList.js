@@ -1,4 +1,4 @@
-import RpgGameImg from "../assets/Images/profile.jpg";
+import RpgGameImg from "../assets/Images/rpg-game.png";
 import LibraryMovie from "../assets/Images/profile.jpg";
 
 const projectList = [
