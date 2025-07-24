@@ -1,13 +1,10 @@
-//import rpgGameImg from "../assets/images/rpg-game.png";
-//import libraryMovie from "../assets/images/movie-library.jpg";
-
 const projectList = [
   {
     name: "Movie Library",
     description:
-      "Generating a movie library with React using the TMDB API, useState, useEffect and useContent.",
+      "Generating a movie library with React using the TMDB API, useState, useEffect and unpm runseContent.",
     link: "https://movie-library-orcin.vercel.app/",
-    //image: libraryMovie,
+    image: "../assets/images/movie-library.jpg",
     icons: ["html", "css", "javascript", "react"],
     size: 32,
   },
@@ -15,7 +12,7 @@ const projectList = [
     name: "RPG Game",
     description: "Description of Project A",
     link: "https://rjrt-web.github.io/rpg-combat/",
-    //image: libraryMovie,
+    image: "../assets/images/rpg-game.png",
     icons: ["html", "css", "javascript"],
     size: 32,
   },
