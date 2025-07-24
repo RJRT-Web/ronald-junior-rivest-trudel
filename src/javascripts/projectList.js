@@ -1,5 +1,5 @@
-import RpgGameImg from "../assets/images/rpg-game.png";
-import LibraryMovie from "../assets/images/movie-library.jpg";
+import RpgGameImg from "../assets/Images/profile.jpg";
+import LibraryMovie from "../assets/Images/profile.jpg";
 
 const projectList = [
   {
