@@ -1,0 +1,25 @@
+/*
+ * CSS Imports
+ * This file imports all the necessary CSS files for the project.
+ * Make sure to keep the order of imports consistent.
+ */
+
+/* --- GENERAL ---------------*/
+@import "./main.css";
+@import "./App.css";
+@import "./animation.css";
+
+/* --- PAGE ------------------*/
+@import "./Home.css";
+@import "./Experience.css";
+@import "./Skill.css";
+
+/* --- COMPONENT -------------*/
+@import "./ExperienceCard.css";
+@import "./Icon.css";
+@import "./NavBar.css";
+@import "./ProfilCard.css";
+@import "./ProfilImage.css";
+@import "./ProjectCard.css";
+@import "./Form.css";
+@import "./Footer.css";

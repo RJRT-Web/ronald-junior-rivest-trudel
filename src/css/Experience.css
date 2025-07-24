@@ -1,0 +1,15 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .experience-container {
+    width: 100%;
+  }
+}

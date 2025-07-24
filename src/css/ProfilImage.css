@@ -1,0 +1,9 @@
+.project {
+  border-radius: 8px;
+  padding: 16px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 10px auto;
+}

@@ -1,0 +1,12 @@
+.icon {
+  transform-box: fill-box;
+
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition: transform 2s ease;
+}
+
+.icon:hover {
+  transform: rotatey(360deg);
+}

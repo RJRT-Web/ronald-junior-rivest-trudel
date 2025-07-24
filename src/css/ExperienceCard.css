@@ -1,0 +1,169 @@
+.expedu-sections {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.expedu-sections .tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab.active {
+  background-color: gray;
+  color: var(--background-color);
+}
+
+.role p {
+  text-align: left;
+}
+
+.expedu-sections .tab {
+  width: 50%;
+  cursor: pointer;
+  margin: 0px auto;
+  padding: 6px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.exp-edu-details {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.experience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.experience-item {
+  position: relative;
+  margin-left: 75px;
+}
+
+.company-logo,
+.college-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: -65px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 200%;
+  background-color: white;
+  position: absolute;
+  left: -40px;
+  top: -30px;
+}
+
+.experience-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.experience-content span {
+  color: gray;
+  font-size: var(--font-size-xs);
+  margin-bottom: -2px;
+}
+
+.experience-content > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-content .title h3 {
+  font-size: var(--font-size-l);
+}
+
+.experience-content > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company p {
+  color: gray;
+  font-size: var(--font-size-s);
+}
+
+.degree p {
+  text-align: left;
+}
+
+.experience-content .role {
+  margin-top: 5px;
+  font-size: var(--font-size-s);
+}
+
+.education {
+  width: 100% 1259.8px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.education-item {
+  position: relative;
+  margin-left: 75px;
+}
+
+.education-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.education-content span {
+  color: gray;
+  font-size: var(--font-size-xs);
+  margin-bottom: -2px;
+}
+
+education-content > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.education-content .title h3 {
+  margin-top: 5px;
+  font-size: var(--font-size-l);
+}
+
+.education-content > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

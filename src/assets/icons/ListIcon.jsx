@@ -1,0 +1,17 @@
+export { default as EmailIcon } from "./envelope.svg?react";
+export { default as GitHubIcon } from "./github.svg?react";
+export { default as LinkedInIcon } from "./linkedin.svg?react";
+export { default as HtmlIcon } from "./html.svg?react";
+export { default as CssIcon } from "./css.svg?react";
+export { default as JsIcon } from "./javascript.svg?react";
+export { default as ReactIcon } from "./react.svg?react";
+export { default as NextIcon } from "./nextjs.svg?react";
+export { default as VueIcon } from "./vuejs.svg?react";
+export { default as BootstrapIcon } from "./bootstrap.svg?react";
+export { default as ConfluenceIcon } from "./confluence.svg?react";
+export { default as FigmaIcon } from "./figma.svg?react";
+export { default as BarMenuIcon } from "./bar-menu.svg?react";
+export { default as CloseIcon } from "./close.svg?react";
+export { default as DownloadIcon } from "./download.svg?react";
+export { default as LocationIcon } from "./location.svg?react";
+export { default as TypescriptIcon } from "./typescript.svg?react";
