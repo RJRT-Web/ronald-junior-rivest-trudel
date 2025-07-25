@@ -1,9 +1,3 @@
-/*
- * CSS Imports
- * This file imports all the necessary CSS files for the project.
- * Make sure to keep the order of imports consistent.
- */
-
 /* --- GENERAL ---------------*/
 @import "./main.css";
 @import "./App.css";

@@ -15,6 +15,7 @@ function ProjectCard({ project }) {
             className="project-image"
             src={project.image}
             alt={`${project.name} screenshot`}
+            rel="preload"
           />
         </div>
         <div className="project-details">

@@ -33,11 +33,7 @@ function ExperienceCard() {
           <div className="experience" id="experience">
             {experience?.map((job, index) => (
               <div className="experience-item" key={index}>
-                <img
-                  className="company-logo"
-                  alt="TCS"
-                  src="/assets/tcs-BqXI6WN1.svg"
-                ></img>
+                <div className="company-logo" />
                 <div className="vertical-line"></div>
                 <div className="experience-content">
                   <span>{job.date}</span>
@@ -59,11 +55,7 @@ function ExperienceCard() {
           <div className="education" id="education">
             {study?.map((study, index) => (
               <div className="education-item" key={index}>
-                <img
-                  className="college-logo"
-                  src="/assets/srm-BhdOdDPL.svg"
-                  alt="TCS"
-                />
+                <div className="college-logo" />
                 <div className="vertical-line"></div>
                 <div className="education-content">
                   <span>{study.date}</span>
