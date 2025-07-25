@@ -8,8 +8,8 @@ function ProjectCard({ project }) {
   }
 
   return (
-    <div className=" project-card">
-      <div className="test bg-animation-dark">
+    <div className=" project-card scroll-animation">
+      <div className="project-container bg-animation-dark">
         <div className="project-img-contant">
           <img
             className="project-image"
@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
           <h2>{project.name}</h2>
           <p>{project.description}</p>
           <a href={project.link} target="_blank" rel="noopener noreferrer">
-            View Project
+            <button>Lien</button>
           </a>
           <div className="project-icons">
             {project.icons?.map((icon, index) => (

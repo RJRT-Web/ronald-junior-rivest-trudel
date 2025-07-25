@@ -18,7 +18,7 @@ function Contact() {
       transition={{ duration: 0.75 }}
     >
       <div className="home-container">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <Form />
       </div>
     </motion.div>

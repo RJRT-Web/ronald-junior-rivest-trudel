@@ -19,8 +19,7 @@ function Project() {
       transition={{ duration: 0.75 }}
     >
       <div className="home-container">
-        <h1>Projets</h1>
-        <p>This is the project page content.</p>
+        <h2>Projets</h2>
         {projectList.map((project, idx) => (
           <ProjectCard key={idx} project={project} />
         ))}

@@ -22,27 +22,29 @@ function ProfilCard({ profil }) {
               <span>{profil["cv-name"]}</span>
             </button>
           </a>
-          <a
-            href="mailto:ronaldjunior.rivesttrudel@hotmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Icon icons="email" size={32} />
-          </a>
-          <a
-            href="https://github.com/RJRT-Web"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Icon icons="github" size={32} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ronald-junior-rivest-trudel/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Icon icons="linkedin" size={32} />
-          </a>
+          <div className="media-container">
+            <a
+              href="mailto:ronaldjunior.rivesttrudel@hotmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icons="email" size={32} />
+            </a>
+            <a
+              href="https://github.com/RJRT-Web"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icons="github" size={32} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ronald-junior-rivest-trudel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icons="linkedin" size={32} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

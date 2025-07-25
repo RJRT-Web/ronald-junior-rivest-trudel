@@ -2,7 +2,7 @@
   transform-box: fill-box;
 
   transition-property: width;
-  transition-duration: 1s;
+  transition-duration: 2s;
   transition-timing-function: linear;
   transition: transform 2s ease;
 }

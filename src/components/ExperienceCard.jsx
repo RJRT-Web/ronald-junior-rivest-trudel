@@ -19,13 +19,13 @@ function ExperienceCard() {
           className={`exp-tab tab ${isVisible ? "active" : ""}`}
           onClick={experienceToggle}
         >
-          <p>Experience</p>
+          <p>Carrière</p>
         </div>
         <div
           className={`edu-tab tab ${!isVisible ? "active" : ""}`}
           onClick={studyToggle}
         >
-          <p>Education</p>
+          <p>Éducation</p>
         </div>
       </div>
       <div className="exp-edu-details">

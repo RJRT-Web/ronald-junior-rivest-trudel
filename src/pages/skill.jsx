@@ -18,7 +18,7 @@ function Skill() {
       transition={{ duration: 0.75 }}
     >
       <div className="container">
-        <h1>Compétence</h1>
+        <h2>Compétence</h2>
         <SkillList />
       </div>
     </motion.div>

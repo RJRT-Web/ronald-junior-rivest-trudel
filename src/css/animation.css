@@ -23,7 +23,7 @@
   animation-range: entry 0% cover 18%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .scroll-animation {
     animation-range: entry 0% cover 40%;
   }
