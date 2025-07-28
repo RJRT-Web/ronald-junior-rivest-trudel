@@ -39,28 +39,48 @@ function Navbar() {
             </button>
           </li>
           <li className="navbar-home">
-            <Link to="/" className="nav-link">
+            <Link
+              to="/"
+              className="nav-link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               RJRT
             </Link>
           </li>
           <li className="navbar-item">
-            <Link to="/Experience" className="nav-link">
+            <Link
+              to="/Experience"
+              className="nav-link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Expérience
             </Link>
           </li>
 
           <li className="navbar-item">
-            <Link to="/Skill" className="nav-link">
+            <Link
+              to="/Skill"
+              className="nav-link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Compétence
             </Link>
           </li>
           <li className="navbar-item">
-            <Link to="/Project" className="nav-link">
+            <Link
+              to="/Project"
+              className="nav-link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Projets
             </Link>
           </li>
           <li className="navbar-item">
-            <Link to="/Contact" className="nav-link">
+            <Link
+              to="/Contact"
+              className="nav-link"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Contact
             </Link>
           </li>
