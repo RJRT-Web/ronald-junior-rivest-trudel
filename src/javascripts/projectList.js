@@ -1,7 +1,17 @@
 import RpgGameImg from "../assets/Images/rpg-game.png";
 import LibraryMovie from "../assets/Images/movie-library.jpg";
+import GamingGuide from "../assets/Images/gaming-guide.jpg";
 
 const projectList = [
+  {
+    name: "Gaming Guide",
+    description:
+      "Rédaction technique de documentation pour des guides de jeux vidéo",
+    link: "https://gaming-guide.vercel.app/",
+    image: GamingGuide,
+    icons: ["html", "css", "javascript"],
+    size: 32,
+  },
   {
     name: "Movie Library",
     description:

@@ -18,28 +18,33 @@ const experience = [
 const study = [
   {
     date: "2025",
-    title: "Codecademy - Plateforme d’apprentissage en ligne",
+    title: "Udemy",
+    description: "Certificat - Introduction to Technical Writing",
+  },
+  {
+    date: "2025",
+    title: "Codecademy",
     description: "Certificat - Create a Front-End App with React",
   },
   {
     date: "2025",
-    title: "Codecademy - Plateforme d’apprentissage en ligne",
+    title: "Codecademy",
     description: "Certificat - Learn JavaScript: Fundamentals",
   },
   {
     date: "2021",
-    title: "Codecademy - Plateforme d’apprentissage en ligne",
+    title: "Codecademy",
     description: "Certificat - Learn Bootstrap",
   },
 
   {
     date: "2020",
-    title: "Codecademy - Plateforme d’apprentissage en ligne",
+    title: "Codecademy",
     description: "Certificat - Building Interactive JavaScript Websites",
   },
   {
     date: "2020",
-    title: "Codecademy - Plateforme d’apprentissage en ligne",
+    title: "Codecademy",
     description: "Certificat - Learn CSS: Responsive Design",
   },
   {

@@ -5,7 +5,7 @@ const profil = {
   imageUrl: ProfilImage,
   altText: "RJRT Profile Picture",
   description: "Développeur Front-end / Développeur UI / Intégrateur Web",
-  location: "Québec, Longueuil",
+  location: "Longueuil, Québec",
   "cv-name": "Résumé",
   "cv-link": "",
 };
