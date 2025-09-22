@@ -4,7 +4,8 @@ const profil = {
   name: "Ronald Junior Rivest-Trudel",
   imageUrl: ProfilImage,
   altText: "RJRT Profile Picture",
-  description: "Développeur Front-end / Développeur UI / Intégrateur Web",
+  description:
+    "Développeur Front-end / Intégrateur Web / Commis à la facturation",
   location: "Longueuil, Québec",
   "cv-name": "Résumé",
   "cv-link": "",

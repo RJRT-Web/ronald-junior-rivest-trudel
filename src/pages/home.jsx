@@ -1,4 +1,3 @@
-import Icon from "../components/Icon";
 import ProfilCard from "../components/ProfilCard";
 import profil from "../javascripts/profil";
 import { motion } from "framer-motion";

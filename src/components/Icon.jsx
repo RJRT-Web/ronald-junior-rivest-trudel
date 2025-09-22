@@ -17,7 +17,16 @@ import {
   CloseIcon,
   DownloadIcon,
   LocationIcon,
+  Word,
+  Excel,
+  Powerpoint,
+  Photoshop,
+  Illustrator,
+  Wordpress,
+  Drupal,
+  Shopify,
 } from "../assets/icons/ListIcon.jsx";
+import { i } from "framer-motion/client";
 
 const iconMap = {
   email: EmailIcon,
@@ -37,6 +46,14 @@ const iconMap = {
   close: CloseIcon,
   download: DownloadIcon,
   location: LocationIcon,
+  word: Word,
+  excel: Excel,
+  powerpoint: Powerpoint,
+  photoshop: Photoshop,
+  illustrator: Illustrator,
+  wordpress: Wordpress,
+  drupal: Drupal,
+  shopify: Shopify,
 };
 
 const colorMap = {
@@ -48,6 +65,21 @@ const colorMap = {
   css: "#1572B6",
   javascript: "#F7DF1E",
   react: "#61DAFB",
+  next: "#000000",
+  vue: "#4FC08D",
+  typescript: "#3178C6",
+  figma: "#F24E1E",
+  confluence: "#172B4D",
+  bootstrap: "#7952B3",
+  word: "#2B579A",
+  excel: "#217346",
+  powerpoint: "#D24726",
+  photoshop: "#31A8FF",
+  illustrator: "#FF9A00",
+  wordpress: "#21759B",
+  drupal: "#0678BE",
+  shopify: "#96BF48",
+
   // Add more as needed
 };
 

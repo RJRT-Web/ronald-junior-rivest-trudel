@@ -13,6 +13,13 @@ const experience = [
     description:
       "Conçoit et implémente des interfaces utilisateur intuitives et esthétiques, en veillant à l’ergonomie, à la cohérence visuelle et à l’interactivité des composants front-end.",
   },
+  {
+    date: "2016 - 2017",
+    title: "Commis à la facturation",
+    company: "Transport Logi-Pro, Anjou",
+    description:
+      "Gère les processus de facturation, assure la précision des données financières et collabore avec les équipes internes pour optimiser les opérations comptables.",
+  },
 ];
 
 const study = [
@@ -51,6 +58,16 @@ const study = [
     date: "2018 - 2019",
     title: "Collège Lasalle - Montréal",
     description: "AEC - Intégration Multimédia",
+  },
+  {
+    date: "2014 - 2015",
+    title: "Cégep régional de Lanaudière, Repentigny",
+    description: "AEC - Gestion financement informatisée",
+  },
+  {
+    date: "2012 - 2013",
+    title: "CFP des Riverains - Repentigny",
+    description: "DEP - Comptabilité",
   },
   {
     date: "2010 - 2011",
